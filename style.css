@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+    margin: 1px;
+    padding: 0px 6px 0px 8px;
+}
+
+.logo {
+    background-image: url(" amazon_logo.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+
+/** Box2 **/
+
+.add-first {
+    color: #CCCCCC;
+    font-size: 0.80rem;
+    margin-left: 20px;
+}
+
+.add-second {
+    color: #FFFFFF;
+    font-size: 0.90rem;
+}
+
+.add-icon {
+    display: flex;
+}
+
+
+/** Box3 **/
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(233, 187, 101);
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+.search-select {
+    background-color: #E6E6E6;
+    width: 55px;
+    text-align: start;  
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.search-input {
+     width: 100%; 
+     font-size: 0.95rem;
+     border: none;
+}
+
+.search-icon {
+    color: black;
+    width: 55px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+}
+
+
+/** Box4 **/
+
+.nav-country-language {
+    height: 30px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 6px 0px 7px;
+}
+
+.country-image {
+    background-image: url(" Indian-flag.jpg ");
+    background-size: cover;
+    height: 15px;
+    width: 20px;
+    margin: 5px 2px 1px 0px;
+}
+
+.language {
+    font-size: 0.80rem;
+    font-weight: bolder;
+    margin: 4px 0px 0px 5px;
+}
+
+.more-language {
+    margin: 5px 0px 0px 0px;
+    font-size: 0.50rem;
+}
+
+
+/** Box5 **/
+
+.sign-in {
+    font-size: 0.71rem;
+}
+
+.account-list { 
+    font-size: 0.90rem;
+    font-weight: bold;
+}
+
+
+/** Box6 **/
+
+.return {
+    font-size: 0.71rem;
+}
+
+.order {
+    font-size: 0.90rem;
+    font-weight: bold;
+}
+
+
+/** Box7 **/
+
+.nav-cart {
+    height: 50px;
+    width: 50x;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.cart-image {
+    background-image: url(" Amazon-cart.jpg ");
+    background-size: cover;
+    height: 38px;
+    width: 50px;
+    padding: 0px 1px 0px 0px;
+}
+
+.cart {
+    font-size: 0.90rem;
+    font-size: bolder;
+    padding: 15px 0px 0px 2px;
+}
+
+
+/***** Pannel *****/
+
+.pannel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pannel-option a {
+    text-decoration: none;
+    color: white;
+}
+
+.pannel-all {
+    height: 40px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pannel-option p {
+    display: inline;
+    font-size: 0.80rem;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+
+.pannel-option p:hover {
+    border: 1px solid white;
+}
+
+.pannel-option {
+    width: 70%;
+}
+
+.pannel-deal {
+    font-size: 0.90rem; 
+    font-weight: bolder;
+}
+
+.pannel-deal:hover {
+    border: 1px solid white;
+}
+
+
+/*****  Hero-Section  ******/
+
+.hero-section {
+    height: 400px;
+    background-image: url(" hero_image.jpg");
+    background-size: cover;
+    display: flex; 
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.hero-msg {
+    background-color: white;
+    color: black;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.80rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.hero-msg a {
+    color: #007185;
+}
+
+
+/** Shop-Section **/
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box {
+    border: 2px solid black;
+    height: 400px;
+    width: 22%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-img {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-img:hover {
+    transform: scale(1.03);
+}
+
+.box-content {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.box-content a {
+    text-decoration: none;
+    font-size: 0.85rem;
+    color: #007185;
+}
+
+
+/***** Footer *****/
+
+footer {
+    margin-top: 15px;
+}
+
+.foot-pannel1 {
+    height: 50px;
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.80rem;
+}
+
+.foot-pannel1:hover {
+    background-color: #3f536b ;
+}
+
+
+/** Foot-pannel2 **/
+
+.foot-pannel2 {
+    background-color: #222f3d;
+    color: white;
+    font-size: 0.85rem;
+    display: flex;
+    justify-content:space-evenly; 
+    padding-bottom: 50px; 
+
+}
+
+.foot-list {
+    margin-top: 50px;
+}
+
+.foot-list a:hover  {
+    text-decoration: underline;
+
+}
+
+.foot-list a {
+    display: block;
+    margin-top: 10px; 
+    color: #DDDDDD;
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+
+.foot-list p {
+    font-size: 1.05rem;
+    font-weight: bolder;
+}
+
+
+/** Foot-pannel3 **/
+
+.foot-pannel3 {
+    background-color: #222f3d;
+    color: #DDDDDD;
+    height: 70px;
+    border-top: 0.10px solid #CCCCCC98;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.logo {
+    background-image: url(" amazon_logo.png");
+    background-size: cover;
+    width: 100px;
+    height: 50px;
+}
+
+.foot-language {
+    height: 28px;
+    width: 130px;
+    border: 0.50px solid #cccccc98;
+    border-radius: 3px;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-left: 70px;
+}
+
+.foot-language p {
+    color: #CCCCCC;
+    padding: 0px 7px 0px 7px;
+    font-size: 0.80rem;
+}
+
+.foot-globe {
+    font-size: 0.80rem;
+}
+
+.foot-arrow {
+    color: #CCCCCC;
+     font-size: 0.70rem;
+     padding: 0px 0px 0px 20px;
+} 
+
+.country {
+    height: 35px;
+    width: 100px;
+    border: 1px solid #CCCCCC98;
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.country-image {
+    background-image: url("Indian-flag.jpg");
+    background-size: cover;
+    height: 12px;
+    width: 18px;
+    margin-left: 5px;
+}
+
+.country p {
+    font-size: 0.80rem;
+    padding-right: 30px;
+    color: #CCCCCC;
+}
+
+
+/** Foot-pannel4 **/
+
+.foot-pannel4 {
+    height: 75px;
+    background-color: #000000;
+    color: #DDDDDD;
+    padding: 30px 0px 20px 0px;
+}
+
+.foot-page {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.foot-page a:hover {
+    text-decoration: underline;
+}
+
+.foot-page a {
+    color: #DDDDDD;
+    text-decoration: none;
+    font-size: 0.75rem;
+    padding: 0px 7.2px;
+}
+
+.foot-pannel4 p {
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 5px;
+}
+
+.Shivani p {
+    font-size: 0.90rem;
+    color: rgb(238, 98, 122);
+    padding: 20px 0px;
+}
+
